@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lotto Result</title>
+    <link rel="stylesheet" href="./main_page.css">
+</head>
+<body>
+    <div class="container">
+        <div class="input-section">
+            <label for="numbers">1~45 중 6개의 숫자를 골라 공백을 기준으로 구분하여 입력해 주세요.</label>
+            <input type="text" id="numbers" value="3 7 14 15 22 38">
+            <button id="check-button">당첨 확인</button>
+        </div>
+        <div class="result-section">
+            <div class="numbers" id="result1" style="visibility: hidden;">
+                <div id="num1"></div>
+                <div id="num2"></div>
+                <div id="num3"></div>
+                <div id="num4"></div>
+                <div id="num5"></div>
+                <div id="num6"></div>
+                <div class="plus">+</div>
+                <div id="num7">17</div>
+            </div>
+            <div class="result-text" id="result2" style="visibility:hidden;">
+                <h2 id="ment"></h2>
+                <p id="rank"></p>
+                <p id="reward"></p>
+            </div>
+        </div>
+        <div class="logo">
+            <img src="logo.png" alt="KB Logo">
+        </div>
+    </div>
+</body>
+</html>

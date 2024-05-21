@@ -10,29 +10,30 @@
     <div class="container">
         <div class="input-section">
             <label for="numbers">1~45 중 6개의 숫자를 골라 공백을 기준으로 구분하여 입력해 주세요.</label>
-            <input type="text" id="numbers" value="여기에 입력하세요.">
+            <input type="text" id="numbers" value="">
             <button id="check-button">당첨 확인</button>
         </div>
         <div class="result-section">
-            <div class="numbers">
-                <div class="number yellow" id="num1"></div>
-                <div class="number yellow" id="num2"></div>
-                <div class="number blue" id="num3"></div>
-                <div class="number blue" id="num4"></div>
-                <div class="number red" id="num5"></div>
-                <div class="number gray" id="num6"></div>
+            <div class="numbers" id="result-numbers">
+                <div class="number yellow"></div>
+                <div class="number yellow"></div>
+                <div class="number blue"></div>
+                <div class="number blue"></div>
+                <div class="number red"></div>
+                <div class="number gray"></div>
                 <div class="plus">+</div>
-                <div class="number blue" id="num7"></div>
+                <div class="number blue"></div>
             </div>
             <div class="result-text">
-                <h2>축하합니다!</h2>
-                <p1>1등 당첨</p1>
-                <p>총 1,834,853,800원</p>
+                <h2 id="result-message">축하합니다!</h2>
+                <p id="prize-message">1등 당첨</p>
+                <p id="total-prize">총 1,834,853,800원</p>
             </div>
         </div>
         <div class="logo">
             <img src="./logo.png" alt="KB Logo">
         </div>
     </div>
+    <script src="random.js"></script>
 </body>
 </html>

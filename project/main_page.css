@@ -1,0 +1,110 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 80%;
+    max-width: 600px;
+}
+
+.input-section {
+    margin-bottom: 20px;
+}
+
+#numbers {
+    width: 60%;
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 1em;
+}
+
+#check-button {
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: #0073e6;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#check-button:hover {
+    background-color: #005bb5;
+}
+
+.result-section {
+    background-color: #e6f7ff;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.numbers {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.number {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    margin: 0 5px;
+    border-radius: 50%;
+    color: white;
+    font-size: 1.2em;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.yellow {
+    background-color: #ffcc00;
+}
+
+.blue {
+    background-color: #1e90ff;
+}
+
+.red {
+    background-color: #ff4500;
+}
+
+.gray {
+    background-color: #a9a9a9;
+}
+
+.plus {
+    font-size: 1.5em;
+    margin: 0 10px;
+}
+
+.result-text h2 {
+    margin: 10px 0;
+    font-size: 1.5em;
+    color: #0073e6;
+}
+
+.result-text p {
+    margin: 5px 0;
+    font-size: 1.2em;
+}
+
+.logo img {
+    width: 100px;
+    margin-top: 20px;
+}
